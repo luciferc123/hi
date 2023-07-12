@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!-- YouTube or Website - CodingLab -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prize Bond</title>
+    <link rel="stylesheet" href="search/style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <a href="#" class="logo">Prize Bond</a>
+
+      <div class="menu-content">
+        <ul class="menu-items">
+          <li class="item">
+            <a href="index.html">Client</a>
+          </li>
+
+          <li class="item">
+            <a href="Draw Time Main.html">Draw Time</a>
+          </li>
+          <li class="item">
+            <a href="Draw Result Main.html">Draw Result</a>
+          </li>
+          <li class="item">
+            <a href="Reports.html">Report</a>
+          </li>
+          <li class="item">
+            <a href="Password Changer.html">password</a>
+          </li>
+            <li class="item">
+            <a href="search.html">Search</a>
+          </li>
+
+          
+          <li class="item">
+            <a href="PrizeBond.html">logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <i id="sidebar-close"></i>
+    </nav>
+
+    <main class="main">
+      <section class="container">
+        <form id="my-form">
+          <h1>Search Bundle</h1>
+          <div class="msg"></div>
+          <div>
+            <label for="Date">Date</label>
+            <input type="date" id="Date">
+          </div>
+          <div>
+            <label for="Category">Bundle</label>
+            <input type="search" id="search">
+          </div>
+          <input class="btn" type="submit" value="Search">
+        </form>
+  
+        <ul id="users"></ul>
+  
+        <!-- <ul class="items">
+          <li class="item">Item 1</li>
+          <li class="item">Item 2</li>
+          <li class="item">Item 3</li>
+        </ul> -->
+      </section>
+    </main>
+
+    <script src="search/script.js"></script>
+  </body>
+</html>

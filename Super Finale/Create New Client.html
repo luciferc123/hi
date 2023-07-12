@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!-- YouTube or Website - CodingLab -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prize Bond</title>
+    <link rel="stylesheet" href="Create New Client/style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  </head>
+  <body>
+    <nav class="sidebar">
+      <a href="#" class="logo">Prize Bond</a>
+
+      <div class="menu-content">
+        <ul class="menu-items">
+          <li class="item">
+            <a href="index.html">Client</a>
+          </li>
+
+          <li class="item">
+            <a href="Draw Time Main.html">Draw Time</a>
+          </li>
+          <li class="item">
+            <a href="Draw Result Main.html">Draw Result</a>
+          </li>
+          <li class="item">
+            <a href="Reports.html">Report</a>
+          </li>
+          <li class="item">
+            <a href="Password Changer.html">password</a>
+          </li>
+            <li class="item">
+            <a href="search.html">Search</a>
+          </li>
+
+          <li class="item">
+            <div class="submenu-item">
+              <span>Report Menu</span>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <ul class="menu-items submenu">
+              <div class="menu-title">
+                <i class="fa-solid fa-chevron-left"></i>
+                Back
+              </div>
+              <li class="item">
+                <a href="Total Sale Report.html">Total Sale</a>
+              </li>
+              <li class="item">
+                <a href="totallimitreport.html">Total Limit Sale</a>
+              </li>
+              <li class="item">
+                <a href="common number.html">Common Number</a>
+              </li>
+              <li class="item">
+                <a href="Distributor Sale Voucher.html">Distributor Sale Voucher</a>
+              </li>
+              <li class="item">
+                <a href="Partywise Result.html">Party-Wise Result</a>
+              </li>
+              <li class="item">
+                <a href="Bundle Draw.html">Bundle Draw</a>
+              </li>
+              <li class="item">
+                <a href="Calculate Draw Result.html">Draw Calculate</a>
+              </li>
+              <li class="item">
+                <a href="Party Prize.html">Party Prize</a>
+              </li>
+              <li class="item">
+                <a href="Bill Sheet.html">Bill Sheet</a>
+              </li>
+              <li class="item">
+                <a href="Client Prize Invoice.html">Client Prize Invoice</a>
+              </li>
+              <li class="item">
+                <a href="Bill Sheet Summary.html">Bill Sheet Summary</a>
+              </li>
+              <li class="item">
+                <a href="Ledger.html">Ledger</a>
+              </li>
+             
+            </ul>
+          </li>
+          
+          <li class="item">
+            <a href="PrizeBond.html">logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="navbar">
+      <i id="sidebar-close"></i>
+    </nav>
+
+    <main class="main">
+      <section class="container">
+        <form id="my-form">
+          <h1>Client</h1>
+          <div class="msg"></div>
+          <div>
+            <label for="Date">Name</label>
+            <input type="date" id="Date">
+          </div>
+          <div>
+            <label for="Category">Address</label>
+            <input type="cat" id="cat">
+          </div>
+          <div>
+            <label for="Category">Contact NO</label>
+            <input type="cat" id="cat">
+          </div>
+          <div>
+            <label for="Category">Password</label>
+            <input type="cat" id="cat">
+          </div>
+          <div>
+            <label for="Category">Commission</label>
+            <input type="number" id="number">
+          </div>
+          <div>
+            <label for="Category">Share</label>
+            <input type="cat" id="cat">
+          </div>
+          <div>
+            <label for="Category">PC %</label>
+            <input type="number" id="number">
+          </div>
+          <div>
+            <label for="Category">Opening Credit</label>
+            <input type="number" id="number">
+          </div>
+          <div>
+            <label for="Category">Opening Debit</label>
+            <input type="number" id="number">
+          </div>
+
+          <div class="container">
+            <input type="checkbox" id="check">
+            <label for="check" class="button">Is Active</label>
+          </div>
+
+          <div>
+            <label for="Category">ہندسہ کی حد</label>
+            <input type="number" id="number">
+          </div>
+          <div>
+            <label for="Category">اکڑا کی حد</label>
+            <input type="number" id="number">
+          </div>
+          <div>
+            <label for="Category">فرسٹ تنڈولا کی حد</label>
+            <input type="number" id="number">
+          </div><div>
+            <label for="Category">سیکنڈ تنڈولا کی حد</label>
+            <input type="number" id="number">
+          </div>
+          <div>
+            <label for="Category">فرسٹ پنگوڑا کی حد</label>
+            <input type="number" id="number">
+          </div><div>
+            <label for="Category">سیکنڈ پنگوڑا کی حد</label>
+            <input type="number" id="number">
+          </div>
+          <div>
+            <label for="Category">First A</label>
+            <input type="number" id="number">
+          </div>
+          <div>
+            <label for="Category">First B</label>
+            <input type="number" id="number">
+          </div>
+          <div>
+            <label for="Category">First C</label>
+            <input type="number" id="number">
+          </div>
+          <div>
+            <label for="Category">First D</label>
+            <input type="number" id="number">
+          </div>
+          <input class="btn" type="submit" value="Save">
+          <input class="btn" type="submit" value="Return To Clients">
+        </form>
+  
+        <ul id="users"></ul>
+  
+        <!-- <ul class="items">
+          <li class="item">Item 1</li>
+          <li class="item">Item 2</li>
+          <li class="item">Item 3</li>
+        </ul> -->
+      </section>
+    </main>
+
+    <script src="Create New Client/script.js"></script>
+  </body>
+</html>
